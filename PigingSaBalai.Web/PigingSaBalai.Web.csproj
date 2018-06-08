@@ -4095,7 +4095,7 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyProject1.Database\PigingSaBalai.Database.csproj">
+    <ProjectReference Include="..\PigingSaBalai.Database\PigingSaBalai.Database.csproj">
       <Project>{4d5510ce-f6d9-4d08-a92d-2d6907923c4e}</Project>
       <Name>PigingSaBalai.Database</Name>
     </ProjectReference>
