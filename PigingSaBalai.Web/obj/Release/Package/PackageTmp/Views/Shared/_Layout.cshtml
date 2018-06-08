@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/Content/images/icons/favicon.png" />
+    @Styles.Render("~/Content/main_Style");
+</head>
+<body class="animsition">
+
+    @Html.Partial("_HeaderSection")
+    @Html.Partial("_SideBar")
+
+    @RenderBody();
+
+    @Scripts.Render("~/Content/main_Scripts");
+    <script src="~/Content/vendor/parallax100/parallax100.js"></script>
+    <script type="text/javascript">
+        $('.parallax100').parallax100();
+    </script>
+</body>
+</html>
